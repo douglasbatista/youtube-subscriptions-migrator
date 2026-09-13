@@ -1,0 +1,16 @@
+# OAuth credentials & tokens — never commit these
+client_secret.json
+client_secret*.json
+*.apps.googleusercontent.com.json
+token_source.json
+token_dest.json
+token_*.json
+
+# Personal export data
+subscriptions.json
+failed_imports.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
